@@ -1,0 +1,21 @@
+{
+  "name": "frontend",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/frontend",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "options": { "command": "next build --no-turbopack", "cwd": "apps/frontend" }
+    },
+    "dev": {
+      "executor": "nx:run-commands",
+      "options": { "command": "next dev --port 3000", "cwd": "apps/frontend" }
+    },
+    "start": {
+      "executor": "nx:run-commands",
+      "options": { "command": "next start", "cwd": "apps/frontend" }
+    }
+  },
+  "tags": ["scope:frontend"]
+}
