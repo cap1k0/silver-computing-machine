@@ -18,10 +18,9 @@ export default function ShellPage() {
         padding: 24,
       }}
     >
-      <h1 style={{ fontSize: 32, marginBottom: 12 }}>پلتفرم ما</h1>
+      <h1 style={{ fontSize: 32, marginBottom: 12 }}>We Are Working </h1>
       <p style={{ color: "#999", maxWidth: 420 }}>
-        سرویس اصلی موقتاً در دسترس نیست. این صفحه مستقل از بک‌اند و مدل کار می‌کنه
-        و همیشه بالاست — به‌محض بازگشت سرویس، لینک اصلی رو امتحان کن.
+       Main Service is Temporary down
       </p>
     </main>
   );
