@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "پلتفرم ما",
-  description: "شل مستقل - بدون وابستگی به بک‌اند یا مدل",
+  title: "QPlatform",
+  description: "indep",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
